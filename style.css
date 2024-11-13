@@ -1,0 +1,36 @@
+h1{color: rgb(255, 5, 5);}
+.link{
+    color: green;
+}
+.special-link {
+    color: blue;
+}/*селектор по классу*/
+.nav-list li:last-child a{
+    color: yellow;
+}/*селекторы потомков*/
+#first-post {
+    color: orange;
+}/*селектор по идентификтору*/
+.post{
+    color: purple;
+}
+.widget{
+    color: pink;
+}
+.color-list{
+    color: gray;
+}
+.widget .color-list li:nth-child(2){
+    color: brown; 
+} /*псевдоклассы*/
+
+.highlighted{
+    color: black;
+}
+.important-widget{
+    color: rgba(143, 9, 9, 0.863);
+} 
+#name
+{color:white;}
+
+.submit-btn{color: black;}

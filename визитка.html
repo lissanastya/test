@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+</head>
+<style>
+body{
+
+    background-image: url(https://images.squarespace-cdn.com/content/v1/656553f6caec8d5cafae0d40/4edb5be8-34c7-4bb2-9504-0638a04ec5bf/Black+%26+White+Simple+Black+Friday+Banner+%28Landscape%29+%281800+x+1000+px%29+%281200+x+600+px%29-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    
+}
+.text{
+    background-color: rgba(255, 255, 250, 0.692);
+    
+}
+.order{
+    background-color: rgb(247, 247, 247);
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end; /* Выравнивание меню вправо */
+    margin-right: 50px; /* Отступ справа */
+    gap: 20px; /* Расстояние между элементами */
+    margin-top: 20px;
+    
+
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navigation a:hover{
+    color: rgba(243, 210, 100, 0.932); /* Цвет при наведении */
+}
+
+H1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(243, 210, 100, 0.932);
+    text-shadow: 2px 2px 4px rgba(0,0, 0, 0.5) ;
+    text-align: center;
+}
+.text1{
+    text-align: justify;
+    font-size: larger;
+ }
+ h3{
+    text-align: center;
+margin-top: 100px;
+ }
+</style>
+<body>
+
+    <div class="text" >
+<div class="navigation">
+    <nav>
+        <a href="#about" > О пекарне</a> 
+    </nav>
+    <nav>
+        <a href="#road" > Как добраться</a> 
+    </nav>
+    <nav>
+        <a href="#food" > Наши изделия</a> 
+    </nav>
+    <nav>
+        <a href="#order"> Оставить заявку</a> 
+    </nav>
+</div>
+    <h1><i>Пекарня "Синабобы"</i></h1>
+    <p style="font-size: larger;text-align: center;"><b> Добро пожаловать в нашу уютную пекарню! </b> </p>
+    <div class="text1">
+        <section id="about">
+    Здесь каждый день мы создаём ароматные хлеба и булочки, пропитанные теплом и заботой. Мы тщательно подбираем разные виды муки – от ржаной и цельнозерновой до кукурузной и гречневой – чтобы каждая буханка радовала своим уникальным вкусом и текстурой.
+
+<p>В нашем ассортименте вы найдете не только хлеб, но и разнообразные булочки: сладкие и сытные, с начинками и без, посыпанные семенами или сдобренные пряностями. Наши пекари вкладывают душу в каждое изделие, чтобы вы могли насладиться свежей выпечкой с хрустящей корочкой и мягкой, воздушной мякотью.
+
+<p>Приходите к нам за настоящим вкусом и ароматом, который напоминает о доме!</p>
+</section>
+</div>
+    
+    <h4>Оставьте заявку и мы Вам перезвоним.</h4>
+    <section id="order">
+    <form action="">
+        <fieldset>
+            <legend>Оставить заявку</legend>
+    
+        <div>
+            Имя:
+            <input type="text" name="name" placeholder="Введите Ваше имя" required>
+        </div>
+        <div>
+        Номер телефона:
+            <input type="text" placeholder="Введите номер телефона" required>
+        </div>
+
+        <p><input type="submit" value="Отправить"></p>
+        </fieldset>
+        </form>
+    </section>
+    
+    <h3>Самая свежая выпечка только у нас по адресу ул. Тимирязева, 16 </h3>
+</div>
+</body>
+</html>
